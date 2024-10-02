@@ -21,6 +21,14 @@ function generateAnalysis(event) {
     "You are a motivational expert on Cryptocurrency and love explaining complex concepts simply.You are to generate answers about all things crypto. Limit your responses to two concise paragraphs. Respond in html. Make sure to follow the user instructions.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  //displaying hidden response option 1(Don't like to use CSS in JavaScript)
+  let responseElement = document.querySelector("#showUp");
+  responseElement.style.display = "block";
+
+  //displaying hidden response option 2
+  //let responseElement = document.querySelector("#answer");
+  //responseElement.classList.remove("hidden");
+
   //make sure it's working by checking the console log
   console.log("Generating Analysis...");
 
