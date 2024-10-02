@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin-ucopia</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+    <header>
+    <h1 class="mainh1">Coin-ucopia</h1>
+</header>
+<main>
+    <div class="form-container">
+   <form id="form">
+    <input type="text" placeholder="Enter Crypto Questions Here" 
+    autofocus 
+    required 
+    autocomplete="off"
+    class="instructions"
+    id="user-instructions">
+    
+    <input type="submit" class="submit-button"></form>
+    <small class="hint">i.e: Ticker, Market Cap, Alt Coins</small>
+</form>
+</div>
+
+<div class="response hidden">
+    <div id="answer"></div>
+    <br/>
+    <div id="two"></div>
+    <br/>
+</div>
+  
+</main>
+   <footer>This AI project was coded by <a href="https://christinavelasquez.netlify.app/about">Christina Velasquez </a>and is <a href="https://github.com/crayzwanderer/-AI-Investment-Analysis-Generator_Crypto" target="_blank"> open sourced on GitHub</a> hosted by <a href="https://coin-ucopia.netlify.app/">Netlify.</a></footer>
+    <script src="index.js"></script>
+    
+</div>
+</body>
+</html>

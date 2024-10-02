@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(6, 7, 61);
+}
+.container {
+  margin: 120px auto;
+  max-width: 850px;
+}
+.mainh1 {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  color: white;
+}
+footer {
+  color: white;
+  text-align: center;
+}
+a {
+  color: yellow;
+}
+div {
+  color: black;
+}
+main {
+  text-align: center;
+}
+form {
+  display: flex;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgb(red, green, blue);
+  width: 60%;
+  font-size: 16px;
+  border-radius: 50px;
+  color: darkblue;
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  font-size: 16px;
+}
+#two,
+#one {
+  color: darkblue;
+}
+#poem {
+  padding-top: 15px;
+  color: black;
+}
+.response {
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  background-color: lightcyan;
+  opacity: 0.5;
+  color: black;
+  margin-top: 10px;
+  line-height: 24px;
+  border-right: 15px solid darkblue;
+  box-shadow: 0px 20px 60px rgba(65, 33, 66, 0.05);
+  margin-bottom: 10px;
+}
+.form-container {
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex-box;
+  box-shadow: 0px 20px 60px rgba(65, 33, 66, 0.05);
+}
+small {
+  color: black;
+}
+.hint {
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.hidden {
+  display: ;
+}
