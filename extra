@@ -1,0 +1,36 @@
+ /* Styles for devices with a screen width of 600px or less */
+  @media only screen and (max-width: 600px) {
+    .robot{
+      width: 200px;
+      margin-left:698x;
+      margin-top:-485px
+      }
+  }
+
+
+    /* Styles for devices with a screen width of 768px or more */
+    @media only screen and (min-width: 601px) {
+      .robot{
+        width: 200px;
+        margin-left:698x;
+        margin-top:-485px
+        }
+    }
+  
+
+
+
+  /* Styles for devices with a screen width of 668px or more */
+  @media only screen and (min-width: 768px) {
+    .robot{
+      width: 200px;
+      margin-top:-335px
+      }
+  }
+
+  img.robot{
+    width: 300px;
+    margin-top: -425px;
+    margin-left:1090px;
+   }
+    
